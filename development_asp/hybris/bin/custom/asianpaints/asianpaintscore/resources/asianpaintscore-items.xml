@@ -114,5 +114,15 @@
 			</itemtype>
 		</typegroup>
 		
+		<!-- Custom AsianPaintsOrderThresholdDiscountPromotion - Price of Restricted products will not consider towards order threshold. 
+		Whereas, in OOB OrderThresholdDiscountPromotion -  Price of Restricted product is considered towards order thershold. -->
+		<typegroup name="AsianPaints">
+			<itemtype code="AsianPaintsOrderThresholdDiscountPromotion" extends="OrderThresholdDiscountPromotion"
+				jaloclass="com.ap.promotions.jalo.AsianPaintsOrderThresholdDiscountPromotion"
+				autocreate="true" generate="true">
+			
+			</itemtype>
+		</typegroup>
+		
 	</itemtypes>
 </items>
