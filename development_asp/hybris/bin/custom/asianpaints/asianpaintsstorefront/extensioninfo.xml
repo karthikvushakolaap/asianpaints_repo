@@ -13,7 +13,9 @@
 --><extensioninfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extensioninfo.xsd">
 
 	<extension abstractclassprefix="Generated" classprefix="AsianpaintsStorefront" name="asianpaintsstorefront">
-		<requires-extension name="liveeditaddon"/>
+		
+<requires-extension name="paypaladdon"/>
+<requires-extension name="liveeditaddon"/>
 <requires-extension name="captchaaddon"/>
 
 

@@ -21,5 +21,12 @@
     <extension name='captchaaddon' />
     <extension name='liveeditaddon' />
     <extension name='acceleratorwebservicesaddon' />
+    
+    <!-- PayPal Extensions -->
+    <extension name='addonsupport' />
+    <extension name='paypal' />
+    <extension name='paypaladdon' />
+    <extension name='paypalcscockpit' />
+    
   </extensions>
 </hybrisconfig>
